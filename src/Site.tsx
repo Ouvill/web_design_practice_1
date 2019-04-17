@@ -21,7 +21,17 @@ class Site extends Component {
           </div>
         </header>
         <main>
-          <div className="contant">contents</div>
+          <div className="contant">
+            <h2>使用画像</h2>
+            <p>
+              画像を利用するにあたっては{" "}
+              <a href="https://unsplash.com/">unsplash</a> の{" "}
+              <a href="https://unsplash.com/photos/f77Bh3inUpE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                Arnold Francisca の 画像
+              </a>
+              を利用しました。
+            </p>
+          </div>
           <div className="split" />
           <div className="contant">contents</div>
         </main>
