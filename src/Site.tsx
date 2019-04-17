@@ -7,17 +7,24 @@ class Site extends Component {
     return (
       <div className="Site">
         <header className="Site-header">
-          <div className="menu">
-            <h3>Site タイトル</h3>
-            <ul>
-              <li>プロダクト</li>
-              <li>料金</li>
-            </ul>
-          </div>
-          <div className="top">
-            <h1>サイトデザイン練習</h1>
-            <h2>かっこいい画像を用意すれば、そこそこ様になるやろ</h2>
-            <button>button</button>
+          <div className="top-wrapper">
+            <div className="top-container">
+              <div className="top-image" />
+              <h1>サイトデザイン練習</h1>
+              <h2>第一弾 : トップ画像を用意する</h2>
+              <p>
+                プログラムを作れるだけで、見た目が全然かっこよくなければ利用する気がおきないと思うので、デザインをちょっと頑張る
+              </p>
+
+              <button
+                className="btn"
+                onClick={() => {
+                  alert("ありがとうございます");
+                }}
+              >
+                ガンバレ！！
+              </button>
+            </div>
           </div>
         </header>
         <main>
@@ -32,8 +39,6 @@ class Site extends Component {
               を利用しました。
             </p>
           </div>
-          <div className="split" />
-          <div className="contant">contents</div>
         </main>
       </div>
     );
