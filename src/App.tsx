@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.scss";
 
 class App extends Component {
@@ -14,6 +14,12 @@ class App extends Component {
               <h2>第一弾 : トップ画像を用意する</h2>
               <p>
                 プログラムを作れるだけで、見た目が全然かっこよくなければ利用する気がおきないと思うので、デザインをちょっと頑張る
+              </p>
+              <p>
+                解説記事は
+                <a href="https://blog.ouvill.net/posts/2019/04/17/web-design-practice-1.html">
+                  こちら
+                </a>
               </p>
 
               <button
