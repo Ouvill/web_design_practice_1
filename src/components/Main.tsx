@@ -43,7 +43,9 @@ const Main = (props: MainProps) => {
               <li>練習用サイト立ち上げ</li>
             </ul>
             <p>
-              <a href="">その時の状態</a>
+              <a href="https://5cb84869267f4f0008c1c4d6--sleepy-turing-c8d56f.netlify.com/">
+                その時の状態
+              </a>
             </p>
           </article>
           <h2>使用画像</h2>
