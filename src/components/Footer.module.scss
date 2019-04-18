@@ -1,0 +1,24 @@
+@import "./palette.scss";
+
+.footer {
+  background-color: $color2;
+  text-align: center;
+
+  color: $color1;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+
+  li {
+    margin: 5px;
+    list-style: none;
+  }
+
+  li::hover {
+    color: $color4;
+  }
+}

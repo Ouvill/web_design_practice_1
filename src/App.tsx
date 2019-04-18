@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 // import logo from "./logo.svg";
+import Footer from "./components/Footer";
 
 import "./App.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -52,6 +53,7 @@ class App extends Component {
             </p>
           </div>
         </main>
+        <Footer />
       </div>
     );
   }
