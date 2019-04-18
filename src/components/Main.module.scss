@@ -1,7 +1,30 @@
-@import "./palette";
+@import "./_palette.scss";
 
 .main {
   width: 80%;
   max-width: 1280px;
   margin: 0 auto;
+
+  h2 {
+    text-align: center;
+    color: $color2;
+  }
+
+  a {
+    color: $color2;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $color3;
+  }
+}
+
+.CardBox {
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(
+      200px,
+      1fr
+    );
+  grid-auto-rows: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
 }

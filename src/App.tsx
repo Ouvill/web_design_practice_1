@@ -6,8 +6,13 @@ import Main from "./components/Main";
 
 import "./App.scss";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
-library.add(faHeart);
+import {
+  faHeart,
+  faLaptopCode,
+  faBookOpen,
+  faPen
+} from "@fortawesome/free-solid-svg-icons";
+library.add(faHeart, faLaptopCode, faBookOpen, faPen);
 
 class App extends Component {
   render() {
