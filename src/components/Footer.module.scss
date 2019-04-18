@@ -1,6 +1,10 @@
+@import "./palette.scss";
+
 .footer {
-  background-color: gray;
+  background-color: $color2;
   text-align: center;
+
+  color: $color1;
 
   ul {
     display: flex;
@@ -12,5 +16,9 @@
   li {
     margin: 5px;
     list-style: none;
+  }
+
+  li::hover {
+    color: $color4;
   }
 }
