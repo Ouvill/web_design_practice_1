@@ -27,8 +27,6 @@ const Main = (props: MainProps) => {
               title="勉強熱心"
               contents="新しいことに興味があり色々勉強しています"
             />
-
-
           </div>
           <article>
             <h2>2019-04-18 やったこと</h2>
