@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 // import logo from "./logo.svg";
 import "./App.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+library.add(faHeart);
 
 class App extends Component {
   render() {
@@ -28,7 +32,8 @@ class App extends Component {
                   alert("ありがとうございます");
                 }}
               >
-                ガンバレ！！
+                ガンバレ
+                <FontAwesomeIcon icon={faHeart} />
               </button>
             </div>
           </div>
