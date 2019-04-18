@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import style from "./Header.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import style from "./Header.module.scss";
 
 interface HeaderProps {}
 
 const Header = (props: HeaderProps) => {
   return (
-    <header className="Site-header">
-      <div className="top-wrapper">
-        <div className="top-container">
+    <header className={style.header}>
+      <div className={style.topWrapper}>
+        <div className={style.topContainer}>
           <div className="top-image" />
           <h1>サイトデザイン練習</h1>
           <h2>第一弾 : トップ画像を用意する</h2>
@@ -20,10 +20,11 @@ const Header = (props: HeaderProps) => {
             <a href="https://blog.ouvill.net/posts/2019/04/17/web-design-practice-1.html">
               こちら
             </a>
+            <p>{style.header}</p>
           </p>
 
           <button
-            className="btn"
+            className={style.btn}
             onClick={() => {
               alert("ありがとうございます");
             }}

@@ -1,6 +1,9 @@
-@import "./palette.scss";
+@import "./_palette.scss";
 
-.top-wrapper {
+.header {
+}
+
+.topWrapper {
   background-image: url("/img/cover1.jpg");
   background-size: cover;
 
@@ -20,7 +23,7 @@
   content: " ";
 }
 
-.top-container {
+.topContainer {
   position: absolute;
   text-align: center;
   top: 50%;
@@ -36,5 +39,4 @@
   padding: 0.6em 1em;
   border-radius: 0.6em;
   background-color: $color1;
-  color: $color3;
 }
