@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import style from "./Footer.module.scss";
 
 interface FooterProps {}
 
 const Footer = (props: FooterProps) => {
   return (
-    <footer>
+    <footer className={style.footer}>
       <ul>
         <li>お問い合わせ</li>
         <li>プライバシーポリシー</li>
